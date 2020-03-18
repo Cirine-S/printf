@@ -7,6 +7,10 @@
 *.obj
 *.elf
 
+# Other Files
+*main.c
+*~
+
 # Linker output
 *.ilk
 *.map
