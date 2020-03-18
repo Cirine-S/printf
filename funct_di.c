@@ -47,6 +47,8 @@ int print_i(va_list *ap)
 	}
 	return (c);
 }
+
+
 /**
  * print_d? (- print s)?
  *
