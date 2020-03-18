@@ -1,0 +1,33 @@
+.TH PRINTF 1 "17/03/2020" "version 1.0" "User Commands"
+.SH NAME
+_printf \- print formatted data to the standard output
+.SH SYNOPSIS
+#include "holberton.h"
+.br
+\fIint\fR
+.B _printf(\fIconst\fR \fIchar\fR \fI*format,\fR \fI...\fR);
+.SH DESCRIPTION
+Print ARGUMENT(s) according to FORMAT, or execute according to OPTION:
+.SH CONVERSION SPECIFIERS
+The _printf takes the following options to format the output:
+.TP
+.B -%c
+Prints a character
+.TP
+.B -%s
+Prints a string
+.TP
+.B -%i
+Prints an integer
+.TP
+.B -%d
+Prints a double
+.TP
+.B -%%
+Prints %
+.SH RETURN VALUE
+_printf returns the number of characters printed if the printing is successful
+.SH SEE ALSO
+printf(3)
+.SH AUTHOR
+Cirine Sassi, Mhamed Azouzi.
