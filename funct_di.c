@@ -81,12 +81,12 @@ int print_b(va_list *ap)
 	int n = va_arg(ap, unsigned int), i = 0, c = 0;
 	int s[64];
 
-        while (n > 0)
-        {
+	while (n > 0)
+	{
 		s[i] = n % 2;
 		n /= 2;
-                i++;
-        }
+		i++;
+	}
 	i--;
 	while (i >= 0)
 	{
@@ -94,5 +94,5 @@ int print_b(va_list *ap)
 		c++;
 		i--;
 	}
-        return (c);
+	return (c);
 }
