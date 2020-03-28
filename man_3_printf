@@ -29,7 +29,7 @@ Prints %
 _printf returns the number of characters printed if the printing is successful
 .SH EXAMPLE
 the output of the code:
-_printf("This is the %dth cohort of %sSchool.", 11, "Holberton ");
+_printf("This is the \%dth cohort of \%sSchool.", 11, "Holberton ");
 is => This is the 11th cohort of Holberton School.
 .SH SEE ALSO
 printf(3)
