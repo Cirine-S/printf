@@ -6,5 +6,6 @@ In the most simple case, printf takes one argument: a string of characters to be
 <div>* The %d option allows us to print a number inside a string.
 <div>* The %i option allows us to print an integer inside a string.
 <div>* The %c option allows us to print a character inside a string.
+<div>* The %% option just displays the percent sign.
 <div>For instance, when typing: <code>_printf("This is the %d%ith cohort of %sSchool%c", 1, 1, "Holberton ", '.');</code>
 we get: <br>This is the 11th cohort of Holberton School.
