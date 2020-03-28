@@ -1,4 +1,4 @@
-<h1><center> The _printf function
+The _printf function
 <div>_printf is just like the C language function to do formatted printing. The same function is also available in PERL.
 In the most simple case, printf takes one argument: a string of characters to be printed. This string is composed of characters, each of which is printed exactly as it appears. So <code>_printf("xyz"); would simply print an x, then a y, and finally a z. This is not exactly formatted printing, but it is still the basis of what _printf does.
 Nonetheless, the real power of _printf is when we are printing the contents of variables, using the following options:
